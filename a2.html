@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> array methods</h1>
+    <p id="r1"></p>
+    <p id="r2"></p>
+    <p id="r3"></p>
+    <p id="r4"></p>
+    <script> 
+        var fruits=["apples","banana","mango","grapes"]
+        document.getElementById("r1").innerHTML=fruits;
+        fruits.push("orange");
+        document.getElementById("r2").innerHTML=fruits;
+            fruits.pop();
+        document.getElementById("r3").innerHTML=fruits;
+        a=fruits.join(" * ");
+        document.getElementById("r4").innerHTML=a
+    </script>
+
+</body>
+</html>
